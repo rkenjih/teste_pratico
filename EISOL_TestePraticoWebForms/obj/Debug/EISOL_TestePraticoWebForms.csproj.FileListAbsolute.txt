@@ -1,0 +1,202 @@
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\csc.exe
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\System.Collections.Immutable.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\System.Reflection.Metadata.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\vbc.exe
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\VBCSCompiler.exe
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\VBCSCompiler.exe.config
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.dll.config
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.pdb
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Antlr3.Runtime.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\AspNet.ScriptManager.bootstrap.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\AspNet.ScriptManager.jQuery.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.ScriptManager.WebForms.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.Web.Infrastructure.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Newtonsoft.Json.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\System.Web.Optimization.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\WebGrease.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\System.Web.Optimization.xml
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Antlr3.Runtime.pdb
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Newtonsoft.Json.xml
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.csprojResolveAssemblyReference.cache
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.pdb
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\BLL.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\DAO.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Oracle.DataAccess.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\BLL.pdb
+D:\DevTools\VS_Projects\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\DAO.pdb
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\csc.exe
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\System.Collections.Immutable.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\System.Reflection.Metadata.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\vbc.exe
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\VBCSCompiler.exe
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\VBCSCompiler.exe.config
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.dll.config
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.pdb
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Antlr3.Runtime.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\AspNet.ScriptManager.bootstrap.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\AspNet.ScriptManager.jQuery.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\BLL.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\DAO.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.ScriptManager.WebForms.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.Web.Infrastructure.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Newtonsoft.Json.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Oracle.DataAccess.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\System.Web.Optimization.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\WebGrease.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\BLL.pdb
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\DAO.pdb
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\System.Web.Optimization.xml
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Antlr3.Runtime.pdb
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Newtonsoft.Json.xml
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.csprojResolveAssemblyReference.cache
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.pdb
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\csc.exe
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\System.Collections.Immutable.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\vbc.exe
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\VBCSCompiler.exe
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\roslyn\VBCSCompiler.exe.config
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.dll.config
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.pdb
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Antlr3.Runtime.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\AspNet.ScriptManager.jQuery.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\BLL.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\DAO.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.Web.Infrastructure.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Newtonsoft.Json.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Oracle.DataAccess.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\System.Web.Optimization.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\WebGrease.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\BLL.pdb
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\DAO.pdb
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\System.Web.Optimization.xml
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Antlr3.Runtime.pdb
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Newtonsoft.Json.xml
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.csprojResolveAssemblyReference.cache
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.pdb
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\roslyn\csc.exe
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\roslyn\System.Collections.Immutable.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\roslyn\System.Reflection.Metadata.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\roslyn\vbc.exe
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\roslyn\VBCSCompiler.exe
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\roslyn\VBCSCompiler.exe.config
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.dll.config
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.pdb
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\Antlr3.Runtime.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\AspNet.ScriptManager.jQuery.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\BLL.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\DAO.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\Microsoft.Web.Infrastructure.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\Newtonsoft.Json.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\System.Web.Optimization.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\WebGrease.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\BLL.pdb
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\DAO.pdb
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\System.Web.Optimization.xml
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\Antlr3.Runtime.pdb
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\Newtonsoft.Json.xml
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.csproj.AssemblyReference.cache
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.csproj.CoreCompileInputs.cache
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.csproj.CopyComplete
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.pdb
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\roslyn\csc.exe
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\roslyn\System.Collections.Immutable.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\roslyn\System.Reflection.Metadata.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\roslyn\vbc.exe
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\roslyn\VBCSCompiler.exe
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\roslyn\VBCSCompiler.exe.config
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.dll.config
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\EISOL_TestePraticoWebForms.pdb
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\Antlr3.Runtime.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\AspNet.ScriptManager.jQuery.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\BLL.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\DAO.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\Microsoft.Web.Infrastructure.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\Newtonsoft.Json.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\System.Web.Optimization.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\WebGrease.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\BLL.pdb
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\DAO.pdb
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\System.Web.Optimization.xml
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\Antlr3.Runtime.pdb
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\Newtonsoft.Json.xml
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.csproj.AssemblyReference.cache
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.csproj.CoreCompileInputs.cache
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.csproj.CopyComplete
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\EISOL_TestePraticoWebForms\obj\Debug\EISOL_TestePraticoWebForms.pdb

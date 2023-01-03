@@ -1,0 +1,42 @@
+D:\DevTools\VS_Projects\EISOL_TestePratico\BLL\bin\Debug\BLL.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\BLL\bin\Debug\BLL.pdb
+D:\DevTools\VS_Projects\EISOL_TestePratico\BLL\bin\Debug\DAO.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\BLL\bin\Debug\Oracle.DataAccess.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\BLL\bin\Debug\DAO.pdb
+D:\DevTools\VS_Projects\EISOL_TestePratico\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\DevTools\VS_Projects\EISOL_TestePratico\BLL\obj\Debug\BLL.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\BLL\obj\Debug\BLL.pdb
+D:\EISOL_TestePratico\EISOL_TestePratico\BLL\bin\Debug\BLL.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\BLL\bin\Debug\BLL.pdb
+D:\EISOL_TestePratico\EISOL_TestePratico\BLL\bin\Debug\DAO.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\BLL\bin\Debug\Oracle.DataAccess.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\BLL\bin\Debug\DAO.pdb
+D:\EISOL_TestePratico\EISOL_TestePratico\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\EISOL_TestePratico\EISOL_TestePratico\BLL\obj\Debug\BLL.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\BLL\obj\Debug\BLL.pdb
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\BLL\bin\Debug\BLL.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\BLL\bin\Debug\BLL.pdb
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\BLL\bin\Debug\DAO.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\BLL\bin\Debug\Oracle.DataAccess.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\BLL\bin\Debug\DAO.pdb
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\BLL\obj\Debug\BLL.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\BLL\obj\Debug\BLL.pdb
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\BLL\bin\Debug\BLL.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\BLL\bin\Debug\BLL.pdb
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\BLL\bin\Debug\DAO.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\BLL\bin\Debug\DAO.pdb
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\BLL\obj\Debug\BLL.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\BLL\obj\Debug\BLL.pdb
+D:\Diversos\EISOL_TestePratico - Base - 2022\BLL\bin\Debug\BLL.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\BLL\bin\Debug\BLL.pdb
+D:\Diversos\EISOL_TestePratico - Base - 2022\BLL\bin\Debug\DAO.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\BLL\bin\Debug\DAO.pdb
+D:\Diversos\EISOL_TestePratico - Base - 2022\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+D:\Diversos\EISOL_TestePratico - Base - 2022\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+D:\Diversos\EISOL_TestePratico - Base - 2022\BLL\obj\Debug\BLL.csproj.CopyComplete
+D:\Diversos\EISOL_TestePratico - Base - 2022\BLL\obj\Debug\BLL.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\BLL\obj\Debug\BLL.pdb

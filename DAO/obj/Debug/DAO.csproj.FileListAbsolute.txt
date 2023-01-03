@@ -1,0 +1,30 @@
+D:\DevTools\VS_Projects\EISOL_TestePratico\DAO\bin\Debug\DAO.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\DAO\bin\Debug\DAO.pdb
+D:\DevTools\VS_Projects\EISOL_TestePratico\DAO\bin\Debug\Oracle.DataAccess.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\DevTools\VS_Projects\EISOL_TestePratico\DAO\obj\Debug\DAO.dll
+D:\DevTools\VS_Projects\EISOL_TestePratico\DAO\obj\Debug\DAO.pdb
+D:\EISOL_TestePratico\EISOL_TestePratico\DAO\bin\Debug\DAO.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\DAO\bin\Debug\DAO.pdb
+D:\EISOL_TestePratico\EISOL_TestePratico\DAO\bin\Debug\Oracle.DataAccess.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\EISOL_TestePratico\EISOL_TestePratico\DAO\obj\Debug\DAO.dll
+D:\EISOL_TestePratico\EISOL_TestePratico\DAO\obj\Debug\DAO.pdb
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\DAO\bin\Debug\DAO.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\DAO\bin\Debug\DAO.pdb
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\DAO\bin\Debug\Oracle.DataAccess.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\DAO\obj\Debug\DAO.dll
+D:\Projetos\2016.10.28.09.00 - EISOL_TestePratico\DAO\obj\Debug\DAO.pdb
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\DAO\bin\Debug\DAO.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\DAO\bin\Debug\DAO.pdb
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\DAO\obj\Debug\DAO.dll
+D:\Diversos\2019.01.16 - EISOL_TestePratico - Base\DAO\obj\Debug\DAO.pdb
+D:\Diversos\EISOL_TestePratico - Base - 2022\DAO\bin\Debug\DAO.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\DAO\bin\Debug\DAO.pdb
+D:\Diversos\EISOL_TestePratico - Base - 2022\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+D:\Diversos\EISOL_TestePratico - Base - 2022\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+D:\Diversos\EISOL_TestePratico - Base - 2022\DAO\obj\Debug\DAO.dll
+D:\Diversos\EISOL_TestePratico - Base - 2022\DAO\obj\Debug\DAO.pdb
