@@ -25,7 +25,7 @@ namespace BLL
         {
             string sql = SELECT + " WHERE COD_CIDADE = :COD_CIDADE ";
             var parametros = new System.Data.Common.DbParameter[1];
-            parametros[0] = new Oracle.DataAccess.Client.OracleParameter("COD_CIDADE", id);
+            parametros[0] = new Oracle.ManagedDataAccess.Client.OracleParameter("COD_CIDADE", id);
             var dataTable = new DAO.ConexaoBD().Executar(sql, CommandType.Text, parametros);
 
             if (dataTable.Rows.Count > 0)
@@ -44,9 +44,9 @@ namespace BLL
         public DAO.CIDADES Adicionar(DAO.CIDADES entidade)
         {
             var parametros = new System.Data.Common.DbParameter[3];
-            parametros[0] = new Oracle.DataAccess.Client.OracleParameter("out_COD_CIDADE", -1);
-            parametros[1] = new Oracle.DataAccess.Client.OracleParameter("in_COD_UF", entidade.COD_UF);
-            parametros[2] = new Oracle.DataAccess.Client.OracleParameter("in_NOME", entidade.NOME);
+            parametros[0] = new Oracle.ManagedDataAccess.Client.OracleParameter("out_COD_CIDADE", -1);
+            parametros[1] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_COD_UF", entidade.COD_UF);
+            parametros[2] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_NOME", entidade.NOME);
             parametros[0].Direction = ParameterDirection.Output;
             new DAO.ConexaoBD().Executar("TESTE.DML_TB_TESTE_CIDADES.INS_TB_TESTE_CIDADES", CommandType.StoredProcedure, "out_COD_CIDADE", parametros);
             return Carregar(Convert.ToInt32(parametros[0].Value));
@@ -59,9 +59,9 @@ namespace BLL
         public void Editar(DAO.CIDADES entidade)
         {
             var parametros = new System.Data.Common.DbParameter[3];
-            parametros[0] = new Oracle.DataAccess.Client.OracleParameter("in_COD_CIDADE", entidade.COD_CIDADE);
-            parametros[1] = new Oracle.DataAccess.Client.OracleParameter("in_COD_UF", entidade.COD_UF);
-            parametros[2] = new Oracle.DataAccess.Client.OracleParameter("in_NOME", entidade.NOME);
+            parametros[0] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_COD_CIDADE", entidade.COD_CIDADE);
+            parametros[1] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_COD_UF", entidade.COD_UF);
+            parametros[2] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_NOME", entidade.NOME);
             new DAO.ConexaoBD().ExecutarSemRetorno("TESTE.DML_TB_TESTE_CIDADES.UPD_TB_TESTE_CIDADES", CommandType.StoredProcedure, parametros);
         }
 
@@ -72,7 +72,7 @@ namespace BLL
         public void Excluir(decimal id)
         {
             var parametros = new System.Data.Common.DbParameter[1];
-            parametros[0] = new Oracle.DataAccess.Client.OracleParameter("in_COD_CIDADE", id);
+            parametros[0] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_COD_CIDADE", id);
             new DAO.ConexaoBD().ExecutarSemRetorno("TESTE.DML_TB_TESTE_CIDADES.DEL_TB_TESTE_CIDADES", CommandType.StoredProcedure, parametros);
         }
 

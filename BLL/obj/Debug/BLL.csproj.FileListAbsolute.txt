@@ -40,3 +40,33 @@ D:\Diversos\EISOL_TestePratico - Base - 2022\BLL\obj\Debug\BLL.csproj.CoreCompil
 D:\Diversos\EISOL_TestePratico - Base - 2022\BLL\obj\Debug\BLL.csproj.CopyComplete
 D:\Diversos\EISOL_TestePratico - Base - 2022\BLL\obj\Debug\BLL.dll
 D:\Diversos\EISOL_TestePratico - Base - 2022\BLL\obj\Debug\BLL.pdb
+C:\teste\BLL\bin\Debug\BLL.dll
+C:\teste\BLL\bin\Debug\BLL.pdb
+C:\teste\BLL\bin\Debug\DAO.dll
+C:\teste\BLL\bin\Debug\DAO.pdb
+C:\teste\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\teste\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\teste\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\teste\BLL\obj\Debug\BLL.dll
+C:\teste\BLL\obj\Debug\BLL.pdb
+C:\teste\BLL\bin\Debug\BLL.dll.config
+C:\teste\BLL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\teste\BLL\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\teste\BLL\bin\Debug\System.Buffers.dll
+C:\teste\BLL\bin\Debug\System.Memory.dll
+C:\teste\BLL\bin\Debug\System.Numerics.Vectors.dll
+C:\teste\BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\teste\BLL\bin\Debug\System.Text.Encodings.Web.dll
+C:\teste\BLL\bin\Debug\System.Text.Json.dll
+C:\teste\BLL\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\teste\BLL\bin\Debug\System.ValueTuple.dll
+C:\teste\BLL\bin\Debug\DAO.dll.config
+C:\teste\BLL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\teste\BLL\bin\Debug\System.Buffers.xml
+C:\teste\BLL\bin\Debug\System.Memory.xml
+C:\teste\BLL\bin\Debug\System.Numerics.Vectors.xml
+C:\teste\BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\teste\BLL\bin\Debug\System.Text.Encodings.Web.xml
+C:\teste\BLL\bin\Debug\System.Text.Json.xml
+C:\teste\BLL\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\teste\BLL\bin\Debug\System.ValueTuple.xml

@@ -28,3 +28,30 @@ D:\Diversos\EISOL_TestePratico - Base - 2022\DAO\obj\Debug\DAO.csproj.AssemblyRe
 D:\Diversos\EISOL_TestePratico - Base - 2022\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
 D:\Diversos\EISOL_TestePratico - Base - 2022\DAO\obj\Debug\DAO.dll
 D:\Diversos\EISOL_TestePratico - Base - 2022\DAO\obj\Debug\DAO.pdb
+C:\teste\DAO\bin\Debug\DAO.dll
+C:\teste\DAO\bin\Debug\DAO.pdb
+C:\teste\DAO\obj\Debug\DAO.csproj.AssemblyReference.cache
+C:\teste\DAO\obj\Debug\DAO.csproj.CoreCompileInputs.cache
+C:\teste\DAO\obj\Debug\DAO.csproj.CopyComplete
+C:\teste\DAO\obj\Debug\DAO.dll
+C:\teste\DAO\obj\Debug\DAO.pdb
+C:\teste\DAO\bin\Debug\DAO.dll.config
+C:\teste\DAO\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\teste\DAO\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\teste\DAO\bin\Debug\System.Buffers.dll
+C:\teste\DAO\bin\Debug\System.Memory.dll
+C:\teste\DAO\bin\Debug\System.Numerics.Vectors.dll
+C:\teste\DAO\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\teste\DAO\bin\Debug\System.Text.Encodings.Web.dll
+C:\teste\DAO\bin\Debug\System.Text.Json.dll
+C:\teste\DAO\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\teste\DAO\bin\Debug\System.ValueTuple.dll
+C:\teste\DAO\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\teste\DAO\bin\Debug\System.Buffers.xml
+C:\teste\DAO\bin\Debug\System.Memory.xml
+C:\teste\DAO\bin\Debug\System.Numerics.Vectors.xml
+C:\teste\DAO\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\teste\DAO\bin\Debug\System.Text.Encodings.Web.xml
+C:\teste\DAO\bin\Debug\System.Text.Json.xml
+C:\teste\DAO\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\teste\DAO\bin\Debug\System.ValueTuple.xml
