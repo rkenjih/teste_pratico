@@ -30,7 +30,7 @@
 - Submissão dos dados do formulário
 
 #### Objetivos secundários:
-- Limpar os campos do foumulário após salvar os dados
+- Limpar os campos do formulário após salvar os dados
 
 ### Tarefa 2
 #### Objetivos principais:
