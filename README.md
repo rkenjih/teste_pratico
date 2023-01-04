@@ -14,8 +14,9 @@
 - Faça download do [.NET 4.8.1 Framework](https://dotnet.microsoft.com/pt-br/download/dotnet-framework/net481).
 - Faça o clone do repositório e abra com a sua ferramenta de desenvolvimento .NET preferida (recomendamos [Visual Studio 19 ou 22](https://visualstudio.microsoft.com/pt-br/vs/community/))
 - Abra a solution e o projeto EISOL_TestePraticoWebForms
+- Usando o git bash ou a interface do visual studio crie uma nova branch com o nome informando a data de criação e seu nome no formato: *yyyymmdd-nome*
 
-## O que precisa ser feito
+##  O que precisa ser feito
 
 - O desenvolvimento das tarefas deverá ocorrer nos arquivos: *Tarefa1.aspx.cs*, *Tarefa2.aspx.cs* e *Tarefa3.aspx.cs*
 - Cada arquivo de tarefa contém instruções detalhadas e dicas sobre como realizar o seu objetivo
@@ -45,6 +46,8 @@
 - Adicionar o evento e os códigos para realizar a cascata
 
 ## Como submeter
+- Faça commit de suas alterações na branch criada anteriormente
+- Faça o push e crie uma pull request
 
 ## Critérios de avaliação
 
