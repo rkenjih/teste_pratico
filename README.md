@@ -11,6 +11,7 @@
 
 ## Como iniciar
 
+- Faça download do [.NET 4.8.1 Framework](https://dotnet.microsoft.com/pt-br/download/dotnet-framework/net481).
 - Faça o clone do repositório e abra com a sua ferramenta de desenvolvimento .NET preferida (recomendamos [Visual Studio 19 ou 22](https://visualstudio.microsoft.com/pt-br/vs/community/))
 - Abra a solution e o projeto EISOL_TestePraticoWebForms
 
