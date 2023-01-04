@@ -1,5 +1,5 @@
 # Teste prático de habilidades básicas ASP.NET WebForms e jQuery
-teste fork
+
 ## Introdução
 
 ### O objetivo desse projeto é fornecer uma oportunidade para candidatos à vagas de desenvolvimento testarem conhecimentos básicos sobre de programação Web usando ASP.NET WebForms e jQuery.
@@ -12,9 +12,10 @@ teste fork
 ## Como iniciar
 
 - Faça download do [.NET 4.8.1 Framework](https://dotnet.microsoft.com/pt-br/download/dotnet-framework/net481).
+- Crie um fork do repositório
 - Faça o clone do repositório e abra com a sua ferramenta de desenvolvimento .NET preferida (recomendamos [Visual Studio 19 ou 22](https://visualstudio.microsoft.com/pt-br/vs/community/))
 - Abra a solution e o projeto EISOL_TestePraticoWebForms
-- Usando o git bash ou a interface do visual studio crie uma nova branch com o nome informando a data de criação e seu nome no formato: *yyyymmdd-nome*
+- (Opcional) Usando o git bash ou a interface do visual studio crie uma nova branch com o nome informando a data de criação e seu nome no formato: *yyyymmdd-nome*
 
 ##  O que precisa ser feito
 
@@ -47,7 +48,8 @@ teste fork
 
 ## Como submeter
 - Faça commit de suas alterações na branch criada anteriormente
-- Faça o push e crie uma pull request
+- Faça o push
+- Crie uma pull request para o repositorio principal
 
 ## Critérios de avaliação
 
