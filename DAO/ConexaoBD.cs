@@ -2,16 +2,11 @@
 using System;
 using System.Data;
 using System.Data.Common;
-using System.Configuration;
 
 namespace DAO
 {
-    public class ConexaoBD
+	public class ConexaoBD
     {
-        #region Campos
-
-        #endregion
-
         #region Métodos
 
         /// <summary>
