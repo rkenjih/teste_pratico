@@ -9,7 +9,7 @@ namespace BLL
         #region Campos
 
         private const string SELECT = @"
-            SELECT COD_CIDADE, COD_UF, NOME FROM DBAODB.TESTE_DEV_CIDADES
+            SELECT COD_CIDADE, COD_UF, NOME FROM DEV.CIDADES
         ";
 
         #endregion
@@ -48,7 +48,7 @@ namespace BLL
             parametros[1] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_COD_UF", entidade.COD_UF);
             parametros[2] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_NOME", entidade.NOME);
             parametros[0].Direction = ParameterDirection.Output;
-            new DAO.ConexaoBD().Executar("DBAODB.DML_TESTE_DEV_CIDADES.INS_TESTE_DEV_CIDADES", CommandType.StoredProcedure, "out_COD_CIDADE", parametros);
+            new DAO.ConexaoBD().Executar("DEV.DML_CIDADES.INS_CIDADES", CommandType.StoredProcedure, "out_COD_CIDADE", parametros);
             return Carregar(Convert.ToInt32(parametros[0].Value));
         }
 
@@ -62,7 +62,7 @@ namespace BLL
             parametros[0] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_COD_CIDADE", entidade.COD_CIDADE);
             parametros[1] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_COD_UF", entidade.COD_UF);
             parametros[2] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_NOME", entidade.NOME);
-            new DAO.ConexaoBD().ExecutarSemRetorno("DBAODB.DML_TESTE_DEV_CIDADES.UPD_TESTE_DEV_CIDADES", CommandType.StoredProcedure, parametros);
+            new DAO.ConexaoBD().ExecutarSemRetorno("DEV.DML_CIDADES.UPD_CIDADES", CommandType.StoredProcedure, parametros);
         }
 
         /// <summary>
@@ -73,7 +73,7 @@ namespace BLL
         {
             var parametros = new System.Data.Common.DbParameter[1];
             parametros[0] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_COD_CIDADE", id);
-            new DAO.ConexaoBD().ExecutarSemRetorno("DBAODB.DML_TESTE_DEV_CIDADES.DEL_TESTE_DEV_CIDADES", CommandType.StoredProcedure, parametros);
+            new DAO.ConexaoBD().ExecutarSemRetorno("DEV.DML_CIDADES.DEL_CIDADES", CommandType.StoredProcedure, parametros);
         }
 
         /// <summary>

@@ -9,7 +9,7 @@ namespace BLL
         #region Campos
 
         private const string SELECT = @"
-            SELECT COD_UF, NOME FROM DBAODB.TESTE_DEV_UF
+            SELECT COD_UF, NOME FROM DEV.UF
         ";
 
         #endregion
@@ -47,7 +47,7 @@ namespace BLL
             parametros[0] = new Oracle.ManagedDataAccess.Client.OracleParameter("out_COD_UF", -1);
             parametros[1] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_NOME", entidade.NOME);
             parametros[0].Direction = ParameterDirection.Output;
-            new DAO.ConexaoBD().Executar("DBAODB.DML_TESTE_DEV_UF.INS_TESTE_DEV_UF", CommandType.StoredProcedure, "out_COD_UF", parametros);
+            new DAO.ConexaoBD().Executar("DEV.DML_UF.INS_UF", CommandType.StoredProcedure, "out_COD_UF", parametros);
             return Carregar(Convert.ToInt32(parametros[0].Value));
         }
 
@@ -60,7 +60,7 @@ namespace BLL
             var parametros = new System.Data.Common.DbParameter[2];
             parametros[0] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_COD_UF", entidade.COD_UF);
             parametros[1] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_NOME", entidade.NOME);
-            new DAO.ConexaoBD().ExecutarSemRetorno("DBAODB.DML_TESTE_DEV_UF.UPD_TESTE_DEV_UF", CommandType.StoredProcedure, parametros);
+            new DAO.ConexaoBD().ExecutarSemRetorno("DEV.DML_UF.UPD_UF", CommandType.StoredProcedure, parametros);
         }
 
         /// <summary>
@@ -71,7 +71,7 @@ namespace BLL
         {
             var parametros = new System.Data.Common.DbParameter[1];
             parametros[0] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_COD_UF", id);
-            new DAO.ConexaoBD().ExecutarSemRetorno("DBAODB.DML_TESTE_DEV_UF.DEL_TESTE_DEV_UF", CommandType.StoredProcedure, parametros);
+            new DAO.ConexaoBD().ExecutarSemRetorno("DEV.DML_UF.DEL_UF", CommandType.StoredProcedure, parametros);
         }
 
         /// <summary>
