@@ -17,7 +17,7 @@ namespace BLL
                    EMAIL,
                    SEXO,
                    DATA_NASCIMENTO
-              FROM TESTE.TB_TESTE_PESSOAS
+              FROM DEV.PESSOAS
         ";
 
         #endregion
@@ -61,7 +61,7 @@ namespace BLL
             parametros[6] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_SEXO", entidade.SEXO);
             parametros[7] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_DATA_NASCIMENTO", entidade.DATA_NASCIMENTO);
             parametros[0].Direction = ParameterDirection.Output;
-            new DAO.ConexaoBD().Executar("TESTE.DML_TB_TESTE_PESSOAS.INS_TB_TESTE_PESSOAS", CommandType.StoredProcedure, "out_COD_PESSOA", parametros);
+            new DAO.ConexaoBD().Executar("DEV.DML_PESSOAS.INS_PESSOAS", CommandType.StoredProcedure, "out_COD_PESSOA", parametros);
             return Carregar(Convert.ToInt32(parametros[0].Value));
         }
 
@@ -80,7 +80,7 @@ namespace BLL
             parametros[5] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_EMAIL", entidade.EMAIL);
             parametros[6] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_SEXO", entidade.SEXO);
             parametros[7] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_DATA_NASCIMENTO", entidade.DATA_NASCIMENTO);
-            new DAO.ConexaoBD().ExecutarSemRetorno("TESTE.DML_TB_TESTE_PESSOAS.UPD_TB_TESTE_PESSOAS", CommandType.StoredProcedure, parametros);
+            new DAO.ConexaoBD().ExecutarSemRetorno("DEV.DML_PESSOAS.UPD_PESSOAS", CommandType.StoredProcedure, parametros);
         }
 
         /// <summary>
@@ -91,7 +91,7 @@ namespace BLL
         {
             var parametros = new System.Data.Common.DbParameter[1];
             parametros[0] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_COD_PESSOA", id);
-            new DAO.ConexaoBD().ExecutarSemRetorno("TESTE.DML_TB_TESTE_PESSOAS.DEL_TB_TESTE_PESSOAS", CommandType.StoredProcedure, parametros);
+            new DAO.ConexaoBD().ExecutarSemRetorno("DEV.DML_PESSOAS.DEL_PESSOAS", CommandType.StoredProcedure, parametros);
         }
 
         /// <summary>

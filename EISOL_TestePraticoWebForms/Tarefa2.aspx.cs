@@ -37,18 +37,18 @@ namespace EISOL_TestePraticoWebForms
 
             var pessoa = new DAO.PESSOAS();
 
-            // Parece que faltam algumas coisas aqui! =/
+			// Parece que faltam algumas coisas aqui! =/
 
-            // O Objeto pessoa não parece ser uma pessoa de verdade ainda. 
-            // As pessoas não são objetos mas aqui podemos considerá-las assim =S
-            // - Faça as devidas atribuições ao objeto 'pessoa' para que ela seja uma pessoa de verdade e feliz!
+			// O Objeto pessoa não parece ser uma pessoa de verdade ainda. 
+			// As pessoas não são objetos mas aqui podemos considerá-las assim =S
+			// - Faça as devidas atribuições ao objeto 'pessoa' para que ela seja uma pessoa de verdade e feliz!
 
-            // Verifique os tamanhos dos campos da tabela e a obrigatoriedade deles e faça o devido tratamento para evitar erros.
-            // - O leiaute da tabela em questão (TB_TESTE_PESSOAS) poderá ser verificado nos arquivos .sql anexados ao projeto.
+			// Verifique os tamanhos dos campos da tabela e a obrigatoriedade deles e faça o devido tratamento para evitar erros.
+			// - O leiaute da tabela em questão (TB_TESTE_PESSOAS) poderá ser verificado nos arquivos .sql anexados ao projeto.
 
-            // Coloque o seu lindo código aqui! (O_o)
+			// Coloque o seu lindo código aqui! (O_o)
 
-            this.Gravar(pessoa);
+			this.Gravar(pessoa);
         }
 
         /// <summary>

@@ -1,5 +1,5 @@
-﻿/// <reference path="Scripts/ClientSide/jquery-1.10.2.js" />
-/// <reference path="Scripts/ClientSide/bootstrap.js" />
+﻿/// <reference path="../../Scripts/jquery-1.10.2.js" />
+/// <reference path="../../Scripts/bootstrap.js" />
 
 // Legal né, essas linhas mágicas aí de cima permitem o Visual Studio a montar o Intellisense do jQuery aqui como ele já faz com o C#.
 // Não apague elas, elas são do bem.
@@ -19,6 +19,9 @@ var TAREFA2 = TAREFA2 || {
         }, 3000);
         return false;
     },
+    Validar: ()=> {
+        // hummmm...
+    }
 }
 
 // Isso aqui são coisas que usamos pra fazer os scripts funcionarem bem com o WebForms
