@@ -54,25 +54,25 @@
                             <label>
                                 Nome
                             </label>
-                            <asp:TextBox ID="txtNome" runat="server" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="txtNome" runat="server" CssClass="form-control" MaxLength="200"></asp:TextBox>
                         </div>
                         <div class="col-md-2 col-sm-12 col-xs-12">
                             <label>
                                 CPF
                             </label>
-                            <asp:TextBox ID="txtCpf" runat="server" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="txtCpf" runat="server" CssClass="form-control" MaxLength="11"></asp:TextBox>
                         </div>
                         <div class="col-md-2 col-sm-12 col-xs-12">
                             <label>
                                 RG
                             </label>
-                            <asp:TextBox ID="txtRg" runat="server" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="txtRg" runat="server" CssClass="form-control" MaxLength="15"></asp:TextBox>
                         </div>
                         <div class="col-md-2 col-sm-12 col-xs-12">
                             <label>
                                 Telefone
                             </label>
-                            <asp:TextBox ID="txtTelefone" runat="server" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="txtTelefone" runat="server" CssClass="form-control" MaxLength="20"></asp:TextBox>
                         </div>
                     </div>
                     <div class="row">
@@ -80,7 +80,7 @@
                             <label>
                                 Email
                             </label>
-                            <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control"></asp:TextBox>
+                            <asp:TextBox ID="txtEmail" runat="server" CssClass="form-control" MaxLength="200"></asp:TextBox>
                         </div>
                         <div class="col-md-3 col-sm-12 col-xs-12">
                             <label>
@@ -105,7 +105,7 @@
     </div>
     <div class="row">
         <div class="col-md-12 col-sm-12 col-xs-12">
-            <asp:Button ID="btnGravar" runat="server" Text="Gravar" CssClass="btn btn-default" />
+            <asp:Button ID="btnGravar" runat="server" Text="Gravar" CssClass="btn btn-default" OnClick="btnGravar_Click" />
             <a class="btn btn-primary" href="Default.aspx">Voltar</a>
         </div>
     </div>
