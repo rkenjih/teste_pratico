@@ -32,6 +32,7 @@ namespace EISOL_TestePraticoWebForms
             pessoa.DATA_NASCIMENTO = Convert.ToDateTime(txtDataNascimento.Text);
 			pessoa.TELEFONE = txtTelefone.Text;
             pessoa.SEXO = ddlSexo.SelectedValue;
+            pessoa.RG = txtRg.Text;
 
             this.Gravar(pessoa);
 		}
@@ -45,6 +46,7 @@ namespace EISOL_TestePraticoWebForms
 			// Se a pessoa for uma pessoa de verdade e feliz, com certeza ela será lembrada pelo banco de dados.
 			new BLL.PESSOAS().Adicionar(pessoa);
 			this.Alertar();
+			this.Limpar();
 		}
 
 		/// <summary>
@@ -62,7 +64,6 @@ namespace EISOL_TestePraticoWebForms
 		{
             PercorrerControlesELimpar(this);
             
-            this.divAlerta.Visible = false;
             msgErro.Text = string.Empty;
             msgErro.Visible = false;
 		}
