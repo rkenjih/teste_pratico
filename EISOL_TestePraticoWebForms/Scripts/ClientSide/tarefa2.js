@@ -11,6 +11,24 @@ var TAREFA2 = TAREFA2 || {
         $("[id$='_btnEstranho']").on('click', () => {
             return TAREFA2.Autodestruir();
         });
+        /*Confesso que javascript não é o meu forte, sei apenas o básico e a maioria do código fiz pesquisando comandos*/
+        $("[id$='_btnGravar']").on('click', () => {
+            return TAREFA2.Validar();
+        });
+
+        $('input[id$="txtCpf"]').on('input', function () {
+            let txtCpf = $(this);
+            let value = txtCpf.val();
+
+            value = value.replace(/\D/g, '');
+
+            if (value.length > 0) {
+                value = value.substr(0, 3) + '.' + value.substr(3, 3) + '.' + value.substr(6, 3) + '-' + value.substr(9, 2);
+            }
+
+            txtCpf.val(value);
+        });
+
     },
     Autodestruir: () => {
         window.alert('Este computador se autodestruirá em 20 segundos...\r\nTodos os seus códigos serão descartados e não poderão ser recuperados.');
@@ -20,7 +38,37 @@ var TAREFA2 = TAREFA2 || {
         return false;
     },
     Validar: ()=> {
-        // hummmm...
+        let campos = [];
+        let valido = true;
+
+        let valor = $('input[id$="txtNome"]').val().trim();
+        if (valor === '') {
+            campos.push("Nome");
+            valido = false;
+        }
+
+        valor = $('input[id$="txtCpf"]').val().trim();
+        if (valor === '') {
+            campos.push("Cpf");
+            valido = false;
+        }
+
+        valor = $('input[id$="txtRg"]').val().trim();
+        if (valor === '') {
+            campos.push("Rg");
+            valido = false;
+        }
+
+        valor = $('input[id$="txtDataNascimento"]').val().trim();
+        if (valor === '') {
+            campos.push("Data Nascimento");
+            valido = false;
+        }
+
+        if (!valido) {
+            alert('Campos inválidos: ' + campos.join(', '));
+        }
+        return valido;
     }
 }
 

@@ -96,7 +96,7 @@
                             <label>
                                 Data de nascimento
                             </label>
-                            <asp:TextBox ID="txtDataNascimento" runat="server" CssClass="form-control" placeholder="DD/MM/YYYY"></asp:TextBox>
+                            <asp:TextBox ID="txtDataNascimento" runat="server" CssClass="form-control" placeholder="DD/MM/YYYY" MaxLength="10"></asp:TextBox>
                         </div>
                     </div>
                 </div>

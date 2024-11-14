@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using DAO;
 
 namespace EISOL_TestePraticoWebForms
 {
@@ -25,14 +27,24 @@ namespace EISOL_TestePraticoWebForms
             this.ddlUf.DataBind();
 
             // Povoando as Cidades
+            CarregarCidades(new BLL.CIDADES().CarregarTodos());
+        }
+
+        protected void ddlUf_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int codUf;
+
+            if (int.TryParse(ddlUf.SelectedValue, out codUf))
+                CarregarCidades(new BLL.CIDADES().CarregarPorUF(codUf));
+        }
+
+        private void CarregarCidades(IList<CIDADES> ddlCidadesDataSource)
+        {
             this.ddlCidades.Items.Clear();
-            this.ddlCidades.DataSource = new BLL.CIDADES().CarregarTodos();
+            this.ddlCidades.DataSource = ddlCidadesDataSource;
             this.ddlCidades.DataTextField = "NOME";
             this.ddlCidades.DataValueField = "COD_CIDADE";
             this.ddlCidades.DataBind();
         }
-
-        // Cadê o evento?
-        // É isso que você deve fazer para finalizar essa tarefa!
     }
 }
