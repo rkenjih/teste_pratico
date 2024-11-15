@@ -1,11 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using DAO.Abstraction;
+using Microsoft.Practices.Unity;
 
 namespace BLL
 {
-    public class PESSOAS
+    public class PESSOAS : BLL.Abstraction.IPESSOAS
     {
+        [Dependency]
+        public IConversor Conversor { get; set; }
+        [Dependency]
+        public IConexaoFactory ConexaoFactory { get; set; }
+
         #region Campos
 
         private const string SELECT = @"
@@ -29,16 +36,16 @@ namespace BLL
         /// </summary>
         /// <param name="id">Chave primária</param>
         /// <returns>DAO.PESSOAS</returns>
-        public DAO.PESSOAS Carregar(decimal id)
+        public IPESSOAS Carregar(decimal id)
         {
             string sql = SELECT + " WHERE COD_PESSOA = :COD_PESSOA ";
             var parametros = new System.Data.Common.DbParameter[1];
             parametros[0] = new Oracle.ManagedDataAccess.Client.OracleParameter("COD_PESSOA", id);
-            var dataTable = new DAO.ConexaoBD().Executar(sql, CommandType.Text, parametros);
+            var dataTable = ConexaoFactory.CreateConexaoBD().Executar(sql, CommandType.Text, parametros);
 
             if (dataTable.Rows.Count > 0)
             {
-                return DAO.Conversor.ConverterParaObjeto<DAO.PESSOAS>(dataTable);
+                return Conversor.ConverterParaObjeto<IPESSOAS>(dataTable);
             }
 
             return null;
@@ -49,7 +56,7 @@ namespace BLL
         /// </summary>
         /// <param name="entidade">DAO.PESSOAS</param>
         /// <returns>PESSOAS</returns>
-        public DAO.PESSOAS Adicionar(DAO.PESSOAS entidade)
+        public IPESSOAS Adicionar(IPESSOAS entidade)
         {
             var parametros = new System.Data.Common.DbParameter[8];
             parametros[0] = new Oracle.ManagedDataAccess.Client.OracleParameter("out_COD_PESSOA", -1);
@@ -61,7 +68,7 @@ namespace BLL
             parametros[6] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_SEXO", entidade.SEXO);
             parametros[7] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_DATA_NASCIMENTO", entidade.DATA_NASCIMENTO);
             parametros[0].Direction = ParameterDirection.Output;
-            new DAO.ConexaoBD().Executar("DEV.DML_PESSOAS.INS_PESSOAS", CommandType.StoredProcedure, "out_COD_PESSOA", parametros);
+            ConexaoFactory.CreateConexaoBD().Executar("DEV.DML_PESSOAS.INS_PESSOAS", CommandType.StoredProcedure, "out_COD_PESSOA", parametros);
             return Carregar(Convert.ToInt32(parametros[0].Value));
         }
 
@@ -69,7 +76,7 @@ namespace BLL
         /// Edita um registro da entidade [PESSOAS].
         /// </summary>
         /// <param name="entidade">PESSOAS</param>
-        public void Editar(DAO.PESSOAS entidade)
+        public void Editar(IPESSOAS entidade)
         {
             var parametros = new System.Data.Common.DbParameter[8];
             parametros[0] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_COD_PESSOA", entidade.COD_PESSOA);
@@ -80,7 +87,7 @@ namespace BLL
             parametros[5] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_EMAIL", entidade.EMAIL);
             parametros[6] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_SEXO", entidade.SEXO);
             parametros[7] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_DATA_NASCIMENTO", entidade.DATA_NASCIMENTO);
-            new DAO.ConexaoBD().ExecutarSemRetorno("DEV.DML_PESSOAS.UPD_PESSOAS", CommandType.StoredProcedure, parametros);
+            ConexaoFactory.CreateConexaoBD().ExecutarSemRetorno("DEV.DML_PESSOAS.UPD_PESSOAS", CommandType.StoredProcedure, parametros);
         }
 
         /// <summary>
@@ -91,20 +98,20 @@ namespace BLL
         {
             var parametros = new System.Data.Common.DbParameter[1];
             parametros[0] = new Oracle.ManagedDataAccess.Client.OracleParameter("in_COD_PESSOA", id);
-            new DAO.ConexaoBD().ExecutarSemRetorno("DEV.DML_PESSOAS.DEL_PESSOAS", CommandType.StoredProcedure, parametros);
+            ConexaoFactory.CreateConexaoBD().ExecutarSemRetorno("DEV.DML_PESSOAS.DEL_PESSOAS", CommandType.StoredProcedure, parametros);
         }
 
         /// <summary>
         /// Carrega todos os itens da entidade.
         /// </summary>
         /// <returns>List(DAO.PESSOAS)</returns>
-        public List<DAO.PESSOAS> CarregarTodos()
+        public IList<IPESSOAS> CarregarTodos()
         {
-            var dataTable = new DAO.ConexaoBD().Executar(SELECT, CommandType.Text);
+            var dataTable = ConexaoFactory.CreateConexaoBD().Executar(SELECT, CommandType.Text);
 
             if (dataTable.Rows.Count > 0)
             {
-                return DAO.Conversor.ConverterParaLista<DAO.PESSOAS>(dataTable);
+                return Conversor.ConverterParaLista<IPESSOAS>(dataTable);
             }
 
             return null;

@@ -1,8 +1,9 @@
 ﻿using System;
+using DAO.Abstraction;
 
 namespace DAO
 {
-    public class PESSOAS
+    public class PESSOAS : IPESSOAS
     {
         public decimal COD_PESSOA { get; set; }
         public string NOME { get; set; }

@@ -2,10 +2,11 @@
 using System;
 using System.Data;
 using System.Data.Common;
+using DAO.Abstraction;
 
 namespace DAO
 {
-	public class ConexaoBD
+    public class ConexaoBD : IConexaoBD
     {
         #region Métodos
 

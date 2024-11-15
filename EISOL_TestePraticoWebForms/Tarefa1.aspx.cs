@@ -3,12 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using DAO.Abstraction;
+using Microsoft.Practices.Unity;
 
 namespace EISOL_TestePraticoWebForms
 {
 	public partial class Tarefa1 : System.Web.UI.Page
 	{
-		protected void Page_Load(object sender, EventArgs e)
+		[Dependency]
+        public IServico Servico { get; set; }
+
+		[Dependency]
+		public IPessoasFactory PessoasFactory { get; set; }
+
+		[Dependency]
+        public BLL.Abstraction.IPESSOAS BllPessoas { get; set; }
+
+        protected void Page_Load(object sender, EventArgs e)
 		{
 			msgErro.Text = string.Empty;
 
@@ -17,6 +28,7 @@ namespace EISOL_TestePraticoWebForms
 
 		protected void btnGravar_Click(object sender, EventArgs e)
 		{
+			Servico.DoSomething();
 			/**/
 			if (!PessoaValida(msgErro))
 			{
@@ -24,7 +36,7 @@ namespace EISOL_TestePraticoWebForms
 				return;
 			}
 
-			var pessoa = new DAO.PESSOAS();
+			var pessoa = PessoasFactory.CreateInstance();
 
             pessoa.NOME = txtNome.Text;
             pessoa.CPF = txtCpf.Text;
@@ -41,10 +53,10 @@ namespace EISOL_TestePraticoWebForms
 		/// Persistir os dados no Banco.
 		/// </summary>
 		/// <param name="pessoa">DAO.PESSOAS</param>
-		private void Gravar(DAO.PESSOAS pessoa)
+		private void Gravar(IPESSOAS pessoa)
 		{
 			// Se a pessoa for uma pessoa de verdade e feliz, com certeza ela será lembrada pelo banco de dados.
-			new BLL.PESSOAS().Adicionar(pessoa);
+			BllPessoas.Adicionar(pessoa);
 			this.Alertar();
 			this.Limpar();
 		}
@@ -142,4 +154,17 @@ namespace EISOL_TestePraticoWebForms
         }
         
 	}
+
+    public interface IServico
+    {
+        void DoSomething();
+    }
+
+    public class Servico : IServico
+    {
+        public void DoSomething()
+        {
+            
+        }
+    }
 }

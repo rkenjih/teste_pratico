@@ -1,6 +1,8 @@
-﻿namespace DAO
+﻿using DAO.Abstraction;
+
+namespace DAO
 {
-    public class CIDADES
+    public class CIDADES : ICIDADES
     {
         public decimal COD_CIDADE { get; set; }
         public decimal COD_UF { get; set; }

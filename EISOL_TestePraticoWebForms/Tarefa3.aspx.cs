@@ -1,11 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using DAO;
+using DAO.Abstraction;
+using Microsoft.Practices.Unity;
 
 namespace EISOL_TestePraticoWebForms
 {
     public partial class Tarefa3 : System.Web.UI.Page
     {
+        [Dependency]
+        public BLL.Abstraction.IUF UFService { get; set; }
+
+        [Dependency]
+        public BLL.Abstraction.ICIDADES CidadesService { get; set; }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!this.Page.IsPostBack)
@@ -21,13 +28,13 @@ namespace EISOL_TestePraticoWebForms
         {
             // Povoando as Unidades da Federação.
             this.ddlUf.Items.Clear();
-            this.ddlUf.DataSource = new BLL.UF().CarregarTodos();
+            this.ddlUf.DataSource = UFService.CarregarTodos();
             this.ddlUf.DataTextField = "NOME";
             this.ddlUf.DataValueField = "COD_UF";
             this.ddlUf.DataBind();
 
             // Povoando as Cidades
-            CarregarCidades(new BLL.CIDADES().CarregarTodos());
+            CarregarCidades(CidadesService.CarregarTodos());
         }
 
         protected void ddlUf_SelectedIndexChanged(object sender, EventArgs e)
@@ -35,10 +42,10 @@ namespace EISOL_TestePraticoWebForms
             int codUf;
 
             if (int.TryParse(ddlUf.SelectedValue, out codUf))
-                CarregarCidades(new BLL.CIDADES().CarregarPorUF(codUf));
+                CarregarCidades(CidadesService.CarregarPorUF(codUf));
         }
 
-        private void CarregarCidades(IList<CIDADES> ddlCidadesDataSource)
+        private void CarregarCidades(IList<ICIDADES> ddlCidadesDataSource)
         {
             this.ddlCidades.Items.Clear();
             this.ddlCidades.DataSource = ddlCidadesDataSource;
